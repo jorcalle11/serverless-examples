@@ -1,0 +1,14 @@
+{
+  "name": "reminders",
+  "version": "1.0.0",
+  "description": "Email reminders",
+  "keywords": [
+    "serverless",
+    "email"
+  ],
+  "author": "Jorge Calle @jorcalle11",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^5.1.1"
+  }
+}

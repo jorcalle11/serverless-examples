@@ -1,0 +1,15 @@
+service: reminders
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  dailyReminder:
+    handler: handler.sendReminder
+    events:
+      - schedule: rate(1 day)
+  weeklyReminder:
+    handler: handler.sendReminder
+    events:
+      - schedule: cron(30 22 ? * SUN,SAT *)
