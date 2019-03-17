@@ -1,6 +1,6 @@
 ## Aws Lambda and Serverless
 
-Getting started with Serverless Framework with Node.js on AWS.
+Getting started Serverless Framework with Node.js on AWS.
 
 ## Documentation
 
